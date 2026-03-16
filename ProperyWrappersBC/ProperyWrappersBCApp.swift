@@ -11,7 +11,7 @@ import SwiftUI
 struct ProperyWrappersBCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UserViewBuilder.build()
         }
     }
 }
